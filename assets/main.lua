@@ -24,7 +24,7 @@ function main.create(me)
     local smm = SMM:getInstance()
     status:setMovementMethod(smm)
 
-    ctrls.source:setText "require 'import'\nlocal L = luajava.package 'java.lang'\nprint(L.Math:sin(2.3))\n"
+    ctrls.source:setText "require 'android.import'\nlocal L = luajava.package 'java.lang'\nprint(L.Math:sin(2.3))\n"
 
     me:on_click(ctrls.executeBtn,function()
         local src = ctrls.source:getText():toString()
