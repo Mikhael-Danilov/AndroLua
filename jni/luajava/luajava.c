@@ -1427,7 +1427,7 @@ static check_error(int res, const char *msg)
 {
     if ( res )
     {
-      fprintf( stderr , msg );
+      fputs( msg, stderr );
       exit( 1 );
     }
 
