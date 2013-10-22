@@ -3,7 +3,6 @@ package sk.kottman.androlua;
 import android.content.Context;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.graphics.Canvas;
 
 public class LuaView extends View { 
