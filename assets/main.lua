@@ -10,6 +10,10 @@ main = require 'android'.new()
 local SMM = bind 'android.text.method.ScrollingMovementMethod'
 local InputType = bind 'android.text.InputType'
 
+function test(dataFromJava)
+    print("got from java", dataFromJava);
+end
+
 function main.create(me)
     local a = me.a
 

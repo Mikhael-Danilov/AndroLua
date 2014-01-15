@@ -1,4 +1,4 @@
-require 'import'
+require 'android.import'
 import 'android.widget.*'
 
 first = {}
