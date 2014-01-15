@@ -192,7 +192,7 @@ public class LuaActivity extends Activity implements ServiceConnection {
 			}
 		};
 
-		injectFunction(test, "test");
+		injectFunction(test, "test1");
 		
 
 		JavaFunction callFromJavaTest = new JavaFunction(Lua.L){
